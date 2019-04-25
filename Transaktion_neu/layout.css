@@ -1,0 +1,66 @@
+a
+{
+    margin-left: 12px;
+    color: darkviolet;
+    text-decoration: none;
+}
+/*a:visited
+{
+    color: aqua;
+}*/
+a:hover
+{
+    text-decoration: underline;
+}
+.Homeseite .Home,
+.Transaktionseite .Transaktion,
+.Periodenauswertungseite .Periodenauswertung,
+.Kategorienauswertungseite .Kategorienauswertung,
+.Transaktiontestseite .Test_Transaktion
+{
+    background-color: orangered;
+}
+ul
+{
+    list-style: none;
+}
+ul li
+{
+    display: inline-block;
+}
+ul a, ul a:visited
+{
+    text-decoration: none;
+    color: aqua;
+}
+
+.fehler
+{
+    color: red;
+    font-weight: bold;
+}
+
+body
+{
+    font-family: sans-serif;
+}
+
+label, input[type=submit]
+{
+    display: block;
+    cursor: pointer;
+}
+
+table tr:nth-of-type(odd)
+{
+    background-color: #c1dce8;
+}
+
+table
+{
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+
+
+
